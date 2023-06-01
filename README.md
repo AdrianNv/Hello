@@ -4,25 +4,21 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Hello] <a name="about-project"></a>
 
 **[Hello]** is a project to test Git and GitHub features and how to set up linters for HTML and CSS.
 
@@ -47,13 +43,6 @@ HTML and CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -74,32 +63,39 @@ Clone this repository to your desired folder:
 
 
 Example commands:
-
-
+```
   cd my-folder
-  git clone git@github.com:AdrianNv/Hello.git
-
+  git clone git@github.com:myaccount/my-project.git
+  cd my-project
+```
 
 
 ### Install
 
 Install this project with:
 
+If you are running on Windows, you need to initialize npm with the following command:
+```
+npm init -y
+```
+Then, to install linters in your local environment run the following commands:
+```
+npm install --save-dev hint@7.x 
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+
+
+
 ### Usage
 
-To run the project, execute the following command:
+To run the project, make any changes to the index or styles files and save your modifications. Then, execute the following commands:
 
+```
+npx hint .   
+npx stylelint "**/*.{css,scss}"
+```
 
-
-### Run tests
-
-To run tests, run the following command:
-
-
-
-### Deployment
-
-You can deploy this project using:
+to show if there's any validation or linter errors that should be addressed.
 
 
 
@@ -108,8 +104,6 @@ You can deploy this project using:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -123,10 +117,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
->
-
-- [ ] **[Update README.md]**
-
+- [ ] **[Interaction with javascript]**
+- [ ] **[Add more HTML and CSS content]**
+- [ ] **[Use linters for javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +138,8 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project...
+If you like this project, please give it a star and follow me on [Twitter](https://twitter.com/Adrian_Nv23)
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,23 +147,12 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to thank Microverse as well as my studying partners for encouraging and supporting me in this project.
 
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,3 +165,4 @@ This project is [MIT](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
