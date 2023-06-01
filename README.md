@@ -95,7 +95,7 @@ npx hint .
 npx stylelint "**/*.{css,scss}"
 ```
 
-to show if there's any validation or linter errors.
+to show if there's any validation or linter errors that should be addressed.
 
 
 
