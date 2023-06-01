@@ -107,7 +107,7 @@ to show if there's any validation or linter errors that should be addressed.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/AdrianNv)
+- Adrian Nava: [@githubhandle](https://github.com/AdrianNv)
 
 
 
