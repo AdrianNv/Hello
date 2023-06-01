@@ -63,11 +63,11 @@ Clone this repository to your desired folder:
 
 
 Example commands:
-
+```
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
   cd my-project
-
+```
 
 
 ### Install
@@ -75,14 +75,14 @@ Example commands:
 Install this project with:
 
 If you are running on Windows, you need to initialize npm with the following command:
+```
 npm init -y
-
+```
 Then, to install linters in your local environment run the following commands:
-
+```
 npm install --save-dev hint@7.x 
-
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-
+```
 
 
 
@@ -90,10 +90,10 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 To run the project, make any changes to the index or styles files and save your modifications. Then, execute the following commands:
 
-`
+```
 npx hint .   
 npx stylelint "**/*.{css,scss}"
-`
+```
 
 to show if there's any validation or linter errors.
 
